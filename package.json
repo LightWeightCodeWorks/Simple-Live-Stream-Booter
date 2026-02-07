@@ -1,0 +1,26 @@
+{
+  "name": "ffmpeg-live-stream",
+  "version": "1.0.0",
+  "description": "Node.js FFmpeg live streamer with support for multiple videos at 1080p with configurable frame rates (30fps/60fps)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "ffmpeg",
+    "live-stream",
+    "rtmp",
+    "streaming",
+    "1080p"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
